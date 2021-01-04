@@ -12,6 +12,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { AwardsComponent } from './components/awards/awards.component';
 import { InterestsComponent } from './components/interests/interests.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { CertificationsComponent } from './components/certifications/certifications.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NavigationComponent } from './components/navigation/navigation.componen
     ProjectsComponent,
     AwardsComponent,
     InterestsComponent,
-    NavigationComponent
+    NavigationComponent,
+    CertificationsComponent
   ],
   imports: [
     HttpClientModule,
