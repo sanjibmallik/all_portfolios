@@ -16,8 +16,14 @@ export class AboutComponent implements OnInit {
   constructor(private _dataService: DataService) { }
 
   ngOnInit() {
-    this.loadSkills()
-    this.loadResumeLink();
+    this.loadUserDetails()
+    // this.loadSkills()
+    // this.loadResumeLink();
+  }
+
+  loadUserDetails() {
+    this._dataService.getUserDetails()
+      .subscribe(data => this.user = data)
   }
 
   loadSkills() {

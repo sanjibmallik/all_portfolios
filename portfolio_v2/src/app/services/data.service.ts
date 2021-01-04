@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
+import { map } from 'rxjs/internal/operators/map';
 @Injectable({
   providedIn: 'root'
 })
@@ -14,6 +15,16 @@ export class DataService {
       .pipe(
 
       )
+  }
+
+  getListOfLinks() {
+    return this._http.get('assets/data/listOfLinks.json')
+      .pipe(map((data: any) => {
+        return data.links
+      })
+
+      )
+
   }
 
   getSkillsDetails() {
