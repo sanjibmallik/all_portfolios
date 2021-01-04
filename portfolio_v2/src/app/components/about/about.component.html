@@ -1,5 +1,5 @@
 <section class="resume-section" id="about">
-    <div class="resume-section-content">
+    <div *ngIf="user" class="resume-section-content">
         <h1 class="mb-0">
             {{user.firstName}}
             <span class="text-primary">{{user.lastName}}</span>
@@ -7,7 +7,6 @@
 
         <div class="subheading">
             {{user.address}}
-            <!-- <a href="mailto:name@email.com">{{user.emailId}}</a> -->
         </div>
         <div class="subheading">
             <a href="callto:{{user.phone}}">+{{user.phone}}</a><br>

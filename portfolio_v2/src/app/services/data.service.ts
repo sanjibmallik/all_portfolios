@@ -34,7 +34,11 @@ export class DataService {
   }
 
   getEducationDetails() {
-    return this._http.get('assets/data/education.json').pipe()
+    return this._http.get('assets/data/education.json').pipe(
+      map((data: any) => {
+        return data.education;
+      })
+    )
   }
 
   getCertificationDetails() {
