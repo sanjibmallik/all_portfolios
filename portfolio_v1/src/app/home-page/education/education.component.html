@@ -1,0 +1,24 @@
+<section class="mh-experince image-bg" id="mh-education">
+  <div class="img-color-overlay">
+      <div class="container">
+          <div class="row section-separator">
+              <div class="col-sm-12 col-md-12">
+                  <div class="mh-education">
+                      <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
+                      <div class="mh-education-deatils" *ngFor="let education of educations">
+                          <!-- Education Institutes-->
+                          <div class="mh-education-item dark-bg wow fadeInUp col-sm-12 col-md-12" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                              <h4>{{education.course}}</h4>
+                              <h5>University: <a href="javascript:void()">{{education.university}}</a></h5>
+                              <div class="mh-eduyear">Passing Year: {{education.yearOfPassing}}</div>
+                              <p><strong>Institute Name: </strong>{{education.collegeName}}</p>
+                              <p>{{education.degree}} with {{education.grade}}</p>
+                          </div>                                
+                        
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>   
