@@ -23,7 +23,7 @@
             "university": "West Bengal State Council Of Technical Education"
         }
     ],
-    "Certification": [
+    "certification": [
         {}
     ],
     "experience": [
@@ -31,8 +31,23 @@
             "id": 1,
             "companyName": "AccionLabs Pvt Ltd",
             "website": "https://www.accionlabs.com",
-            "period": "March 2015 to till Date",
-            "role": "Software Engineer",
+            "period": "September 2015 to till Date",
+            "role": "Senior Software Engineer",
+            "companyProfile": "",
+            "responsibilities": [
+                {
+                    "id": 1,
+                    "res": "Design and coding"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "companyName": "AccionLabs Pvt Ltd",
+            "website": "https://www.accionlabs.com",
+            "period": "March 2015 to September 2015",
+            "role": "Intern",
+            "companyProfile": "",
             "responsibilities": [
                 {
                     "id": 1,

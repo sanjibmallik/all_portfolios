@@ -29,7 +29,11 @@ export class DataService {
 
   getSkillsDetails() {
     return this._http.get('assets/data/skills.json')
-      .pipe()
+      .pipe(map((data: any) => {
+        return data.skills
+      })
+
+      )
 
   }
 
@@ -37,6 +41,14 @@ export class DataService {
     return this._http.get('assets/data/education.json').pipe(
       map((data: any) => {
         return data.education;
+      })
+    )
+  }
+
+  getExperienceDetails() {
+    return this._http.get('assets/data/education.json').pipe(
+      map((data: any) => {
+        return data.experience;
       })
     )
   }
@@ -49,8 +61,5 @@ export class DataService {
 
   }
 
-  getExperienceDetails() {
-    return this._http.get('assets/data/education.json')
-  }
 
 }
