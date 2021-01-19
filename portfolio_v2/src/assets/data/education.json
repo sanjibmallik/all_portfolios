@@ -24,7 +24,16 @@
         }
     ],
     "certification": [
-        {}
+        {
+            "name": "Angular Certification",
+            "link": "https://www.udemy.com/certificate/UC-DL2X8YFS/",
+            "provider": "Udemy"
+        },
+        {
+            "name": "Java J2EE",
+            "link": "",
+            "provider": "JavaFirstTrack"
+        }
     ],
     "experience": [
         {
