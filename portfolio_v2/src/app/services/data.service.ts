@@ -54,7 +54,11 @@ export class DataService {
   }
 
   getCertificationDetails() {
-
+    return this._http.get('assets/data/education.json').pipe(
+      map((data: any) => {
+        return data.certification;
+      })
+    )
   }
 
   getProjectDetails() {
