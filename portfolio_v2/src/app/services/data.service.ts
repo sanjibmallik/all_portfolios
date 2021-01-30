@@ -62,6 +62,11 @@ export class DataService {
   }
 
   getProjectDetails() {
+    return this._http.get('assets/data/education.json').pipe(
+      map((data: any) => {
+        return data.projects;
+      })
+    )
 
   }
 
