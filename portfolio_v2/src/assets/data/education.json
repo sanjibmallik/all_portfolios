@@ -38,10 +38,10 @@
     "experience": [
         {
             "id": 1,
-            "companyName": "AccionLabs Pvt Ltd",
+            "companyName": "AccionLabs Canada",
             "website": "https://www.accionlabs.com",
-            "period": "September 2015 to till Date",
-            "role": "Senior Software Engineer",
+            "period": "May 2022 to till Date",
+            "role": "Front-end Engineer",
             "companyProfile": "",
             "responsibilities": [
                 {
@@ -52,6 +52,20 @@
         },
         {
             "id": 2,
+            "companyName": "AccionLabs Pvt Ltd",
+            "website": "https://www.accionlabs.com",
+            "period": "September 2015 to May-2022",
+            "role": "Senior Software Engineer",
+            "companyProfile": "",
+            "responsibilities": [
+                {
+                    "id": 1,
+                    "res": "Design and coding"
+                }
+            ]
+        },
+        {
+            "id": 3,
             "companyName": "AccionLabs Pvt Ltd",
             "website": "https://www.accionlabs.com",
             "period": "March 2015 to September 2015",
